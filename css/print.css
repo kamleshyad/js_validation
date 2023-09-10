@@ -1,5 +1,5 @@
 /*** GLOBAL SETTING ***/
-body {margin:0; padding:0;font:normal 18px 'Lexend', sans-serif; color:#010101; line-height:normal;}
+body {margin:0; padding:0;font:normal 18px 'Poppins', sans-serif; color:#010101; line-height:normal;}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd,q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li, fieldset, form, label, legend{margin:0; padding:0; border:0; outline:0; font-size:100%; background:transparent; resize:none}
 body {line-height:1}
 /*** GLOBAL SELECTORS ***/
@@ -8,3 +8,21 @@ a:hover{ color:#000000;}
 /*Main Content*/
 .container{ width: 1290px; margin:0 auto}
 .reset{padding: 0; margin: 0; box-sizing: border-box;}
+
+.formsec .container{display: flex; flex-wrap: nowrap; justify-content: center; align-items: center; height: 100vh;}
+.formsec .formbox{padding: 20px; border-radius: 5px; border: 1px solid #000; box-shadow: 0 2px 10px rgba(0,0,0,.2); width: 450px; box-sizing: border-box;}
+.formbox h2{font-size: 24px; color: #000; font-weight: 400; line-height: normal; text-align: center; margin-bottom: 20px;}
+
+.form_control{margin-bottom: 5px; padding-bottom: 30px; position: relative;}
+.form_control label{color: #3f3e3e; display: block; margin-bottom: 10px;} 
+.form_control input{font-size: 14px; border: 2px solid #999; border-radius: 5px; display: block; width: 100%; padding: 8px; box-sizing: border-box;}
+.form_control input:focus{outline: 0; border-color: #828181;}
+
+/* Js Styling */
+.form_control.success input, .form_control.error input{border-width: 2px; border-color: #02a502f8;}
+.form_control.error input{border-color: #f13f3f;}
+
+.form_control small{color: red; font-size: 13px; position: absolute; left: 0; bottom: 10px; visibility: hidden;}
+.form_control.error small{visibility: visible;}
+
+form button{cursor: pointer; background: #ff6a07; border-radius: 4px; border: 2px solid #ff6a07; color: #fff; width: 100%; padding: 10px; margin-top: 20px; font-size: 16px;}

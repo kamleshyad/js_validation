@@ -4,19 +4,49 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tittle Name</title>
-<link href="css/global.css" rel="stylesheet" type="text/css" />
 <link href="css/print.css" rel="stylesheet" type="text/css" />
-<link href="css/responsive.css" rel="stylesheet" type="text/css" />
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&family=Oswald&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 <div id="wrapper">
-    
+    <div class="formsec">
+        <div class="container">
+            <div class="formbox">
+                <form>
+                    <h2>Registration Form</h2>
+                    <div class="form_control success">
+                        <!-- Username -->
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Enter Username">
+                        <small>Error message will be displayed here.</small>
+                    </div>
+                    <div class="form_control error">
+                        <!-- Email -->
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter Email">
+                        <small>Error message will be displayed here.</small>
+                    </div>
+                    <div class="form_control success">
+                        <!-- password -->
+                        <label for="password">Password</label>
+                        <input type="email" id="password" placeholder="Enter Password">
+                        <small>Error message will be displayed here.</small>
+                    </div>
+                    <div class="form_control success">
+                        <!-- confirm password -->
+                        <label for="cpassword">Confirm Password</label>
+                        <input type="email" id="cpassword" placeholder="Enter Confirm Password">
+                        <small>Error message will be displayed here.</small>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 <script src="js/script.js"></script>
