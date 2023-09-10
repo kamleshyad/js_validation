@@ -1,0 +1,10 @@
+/*** GLOBAL SETTING ***/
+body {margin:0; padding:0;font:normal 18px 'Lexend', sans-serif; color:#010101; line-height:normal;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd,q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li, fieldset, form, label, legend{margin:0; padding:0; border:0; outline:0; font-size:100%; background:transparent; resize:none}
+body {line-height:1}
+/*** GLOBAL SELECTORS ***/
+a{ color:#5a1613; transition: .3s ease;}
+a:hover{ color:#000000;} 
+/*Main Content*/
+.container{ width: 1290px; margin:0 auto}
+.reset{padding: 0; margin: 0; box-sizing: border-box;}
